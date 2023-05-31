@@ -3,12 +3,12 @@
 ## Install
 
 ```bash
-go get github.com/julianhahn/shp_to_geojson
+go get github.com/seoulrobotics/shp_to_geojson
 ```
 
 ```go
 import (
-   shp "github.com/julianhahn/shp_to_geojson"
+   shp "github.com/seoulrobotics/shp_to_geojson"
   )
 ```
 
@@ -18,8 +18,8 @@ There is only one method that expect's a byte array from a shpfile and the resul
 
 To save some time for users, I included two examples:
 
-1. [parse one file](https://github.com/julianhahn/shp_to_geojson/tree/main/examples/read_parse_print)
-2. [parse multiple files](https://github.com/julianhahn/shp_to_geojson/tree/main/examples/read_multiple)
+1. [parse one file](https://github.com/seoulrobotics/shp_to_geojson/tree/main/examples/read_parse_print)
+2. [parse multiple files](https://github.com/seoulrobotics/shp_to_geojson/tree/main/examples/read_multiple)
 
 ### Background
 
